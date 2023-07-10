@@ -127,17 +127,88 @@ header {
   gap: 180px;
   border-radius: 8px;
   background: rgba(229, 84, 115, 0.05);
-  
+
   margin: 128px 0px;
   padding: 100px 200px;
 }
-.deal-img{
-    width: 200px;
-    height: 300px;
+.deal-img {
+  width: 200px;
+  height: 300px;
 }
-.deal-text{
-    display: flex;
-    flex-direction: column;
+.deal-text {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+span {
+  color: #e55473;
+}
+/* Instagram section style */
+.instagram {
+  text-align: center;
+  margin: 0px 240px 100px 240px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.insta-img {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin-top: 24px;
+}
+.img1 {
+    width: 300px;
+    height: 350px;
+}
+.img2 {
+    width: 300px;
+    height: 350px;
+}
+.img3 {
+    width: 300px;
+    height: 350px;
+}
+.img4 {
+    width: 300px;
+    height: 350px;
+}
+.latest-deal {
+  background-image: url("Flower\ Asset/Rectangle 9.png");
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 100px;
+  background-position: top;
+  background-size: cover;
+  width: 1275px;
+}
+.email {
+  width: 700px;
+  height: 64px;
+  border-radius: 8px;
+  background-color: #fff;
+  border: none;
+  padding-left: 10px;
+  margin-bottom: 40px;
+}
+.latest-title{
+    color: #272727;
     text-align: center;
-    align-items: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 80px;
+}
+#coupon{
+    margin-top: -15px;
+}
+.instagram-title{
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 0px;
 }

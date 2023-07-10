@@ -9,28 +9,28 @@
   border-radius: 8px;
   background: #e55473;
   padding: 20px 43px;
-  color: #FFF;
-font-size: 15px;
-font-style: normal;
-font-weight: 700;
-border: none;
+  color: #fff;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  border: none;
 }
 /* Header Style */
 header {
   display: flex;
   justify-content: center;
   gap: 97px;
-  height: 100vh;
+  height: 700px;
   background: rgba(229, 84, 115, 0.1);
 }
-.header-text{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: flex-start;
-    margin-left: 240px;
-    margin-top: 190px;
-    margin-bottom: 100px;
+.header-text {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 240px;
+  margin-top: 190px;
+  margin-bottom: 100px;
 }
 .header-title {
   color: #272727;
@@ -45,9 +45,78 @@ header {
   font-weight: 400;
   padding: 32px 0px;
 }
-.header-img{
-    width: 494px;
-    margin-top: 50px;
-    margin-right: 120px;
-    margin-bottom: 0px;
+.header-img {
+  width: 494px;
+  margin-top: 50px;
+  margin-right: 120px;
+  padding-top: 24px;
+}
+/* Feature Style */
+.feature .description {
+  text-align: center;
+  margin-top: ;
+}
+.feature-title {
+  color: #272727;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
+  margin-top: 170px;
+}
+.feature-flower {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin: 24px 240px 32px 240px;
+}
+.flower-img1 {
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(167, 33, 98, 0.15);
+  width: 200px;
+  height: 300px;
+  padding: 110px 75px 0px 75px;
+}
+.flower-img2 {
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(5, 151, 160, 0.15);
+  width: 200px;
+  height: 300px;
+  padding: 110px 75px 0px 75px;
+}
+.flower-img3 {
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(71, 125, 17, 0.15);
+  width: 220px;
+  height: 300px;
+  padding: 110px 75px 0px 75px;
+}
+.caption {
+  color: #272727;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  text-decoration-line: underline;
+  padding-top: 24px;
+  cursor: pointer;
+}
+
+/* Icon Box Style */
+.icon-box {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  border-radius: 8px;
+  background: rgba(39, 39, 39, 0.05);
+  margin: 200px 210px;
+  padding-top: 80px;
+  padding-bottom: 60px;
+}
+.icon1 {
+  text-align: center;
+}
+.icon2 {
+  text-align: center;
+}
+.icon3 {
+  text-align: center;
 }

@@ -120,3 +120,24 @@ header {
 .icon3 {
   text-align: center;
 }
+/* Hot deal style */
+.hot-deal {
+  display: flex;
+  justify-content: center;
+  gap: 180px;
+  border-radius: 8px;
+  background: rgba(229, 84, 115, 0.05);
+  
+  margin: 128px 0px;
+  padding: 100px 200px;
+}
+.deal-img{
+    width: 200px;
+    height: 300px;
+}
+.deal-text{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}

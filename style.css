@@ -127,14 +127,14 @@ header {
   cursor: pointer;
 }
 
-/* Icon Box Style */
+/* Icon Box Style Delivery Section Style */
 .icon-box {
   display: flex;
   justify-content: center;
   gap: 100px;
   border-radius: 8px;
   background: rgba(39, 39, 39, 0.05);
-  margin: 200px 210px;
+  margin: 200px 0px;
   padding-top: 80px;
   padding-bottom: 60px;
 }

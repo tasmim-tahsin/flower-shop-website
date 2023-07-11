@@ -26,20 +26,21 @@ nav {
   padding-top: 15px;
 }
 .nav-title{
-  font-size: 40px;
+  font-size: 35px;
   font-weight: 400px;
 }
 .link {
   display: flex;
-  font-size: 15px;
+  font-size: 12px;
   font-style: normal;
   font-weight: 200;
   color: #111010;
   gap: 30px;
 }
-.nav1 , .nav2{
- height: 20px;
+.nav1 , .nav2, .nav3{
+ height: 22px;
  margin-right: 25px;
+
 }
  /* Header */
 header {
@@ -55,7 +56,7 @@ header {
   flex-direction: column;
   align-items: flex-start;
   margin-left: 240px;
-  margin-top: 190px;
+  margin-top: 150px;
   margin-bottom: 100px;
 }
 .header-title {
@@ -237,6 +238,50 @@ span {
   font-size: 40px;
   font-weight: 800;
   margin-top: 0px;
+}
+/* Testimonial Section */
+.testimonial{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgba(229, 84, 115, 0.05);
+  text-align: center;
+  padding-top: 50px ;
+  padding-bottom: 20px;
+  width: 1275px;
+  border-radius: 10px;
+
+}
+.test-img{
+  width: 150px;
+  border-radius:50%;
+}
+.test-title{
+  color: #272727;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
+  margin-top: 100px;
+  margin-bottom: 40px;
+}
+.test-description{
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 00;
+  padding: 32px ;
+}
+.name{
+  color:#111010;
+  font-size: 18px;
+  font-weight: 600;
+}
+.name-title{
+  color:gray;
+  font-size: 10px;
+  font-weight: 500;
+  padding: 5px;
 }
 
 /* Footer */
